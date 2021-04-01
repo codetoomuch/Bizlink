@@ -8,7 +8,7 @@
 
 body {
   min-height: 100vh;
-  background: teal;
+  background: purple;
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
@@ -31,7 +31,7 @@ a:hover {
 .container {
   height: 600px;
   width: 350px;
-  padding: 20px;
+  padding: 15px;
   background: #fff;
   color: #333;
   border-radius: 12px;
@@ -39,8 +39,8 @@ a:hover {
 }
 
 .img-card {
-  border: 2px solid #fff;
-  height: 37%;
+  /* border: 2px solid #333; */
+  height: 36%;
   width: 100%;
 }
 
@@ -51,14 +51,14 @@ a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid #fff;
+  /* border: 2px solid #333; */
 }
 
 .name-card {
-  border: 2px solid #fff;
-  height: 15%;
+  /* border: 2px solid #333; */
+  height: 12%;
   width: 100%;
-  margin-top: 5px;
+  /* margin-top: 5px; */
   margin-bottom: 5px;
   text-align: center;
   font-size: 2rem;
@@ -66,9 +66,10 @@ a:hover {
 }
 
 .connection-card {
-  height: 46%;
+  height: 48%;
   width: 100%;
   /* border: 2px solid #333; */
+  margin-top: 20px;
 }
 
 img {
